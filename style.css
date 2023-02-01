@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 .container{
     max-width: 1440px;
@@ -7,8 +8,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: solid 1px black;
-    margin-top: 80px;
+    
 
 }
 .InsideContainer{
@@ -89,7 +89,11 @@
 .InsideSecondDiv{
     width: 540px;
     height: 480px;
-    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
 
 
 }
@@ -137,11 +141,129 @@
 .InsidethirdDiv2{
     width: 255px;
     height: 265px;
-    background-color: black;
+    
 }
 .lastDives{
     width: 255px;
     height: 323px;
-    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+    
+}
+.headerSmallDiv{
+    width: 100%;
+    height: 58px;
+
+
+}
+.headerP1{
+    width: 445px;
+    height: 112px;
+    font-size: 56px;
+    font-family: 'Barlow', "sans-serif";
+    text-transform: uppercase;
+    font-style: normal;
+    color: #162542;
+    font-weight: 900;
+}
+.headerP2{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+    Width:445px;
+    Height:78px;
+
+}
+.firstbutton{
+    background-color: #F16718;
+    border-radius: 8px;
+    width: 175px;
+    height: 58px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Barlow';
+}
+.afterFirstButtonSpan{
+    width: 127px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Barlow';
+    color: #7B8BAD;
+    padding-left: 40px;
+}
+.PforfourthDiv{
+    width: 255px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Barlow';
+    color: #162542
+    
+   
+}
+.boloSpan{
+    width: 255px;
+    height: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow';
+    color: #7B8BAD;
+    line-height: 26px;
+}
+.PForThirdDiv2{
+    width: 255px;
+    height: 130px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow';
+    color: #7B8BAD;
+    padding-top: 27px; 
+    line-height: 26px;   
+   
+}
+
+.boloOrangeDiv{
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.boloOrangeDiv1{
+
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    padding-left: 23px;
+    padding-top: 17px;
+}
+.boloOrangeDiv2{
+
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    padding-left: 17px;
+    padding-top: 20px;
+}
+.boloOrangeDiv3{
+
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-top: 15px;
 }
 
