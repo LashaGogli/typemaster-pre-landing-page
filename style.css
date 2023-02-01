@@ -96,17 +96,52 @@
 .thirdDiv{
     width: 100%;
     height: 480px;
-    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .fourthDiv{
     width: 100%;
     height: 366px;
-    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
 }
 .lastP{
     width: 100%;
     height: 26px;
     text-align: center;
+}
+.InsideThirdDiv{
+    width: 255px;;
+    height: 480px;
+    background-color: #F16718;
+    border-radius: 20px;
+}
+.bitMap{
+    opacity: 50%;
+    border-radius: 20px;
+}
+.secondPic{
+    width: 445px;
+    height: 480px;
+    border-radius: 20px;
+    
+
+}
+.DivforPic{
+    width: 520px;
+    height: 480px;
+}
+.InsidethirdDiv2{
+    width: 255px;
+    height: 265px;
+    background-color: black;
+}
+.lastDives{
+    width: 255px;
+    height: 323px;
+    background-color: black;
 }
 
