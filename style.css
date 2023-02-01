@@ -267,3 +267,11 @@
     padding-top: 15px;
 }
 
+.preOrder:hover{
+    background-color: #162542;
+    color: white;
+}
+.firstbutton:hover{
+    background-color: #FF9B62;
+    color: white;
+}
