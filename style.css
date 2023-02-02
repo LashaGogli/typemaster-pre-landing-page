@@ -88,6 +88,7 @@
     justify-content: space-between;
     overflow: hidden;
 
+
 }
 .InsideSecondDiv{
     max-width: 540px;
@@ -126,6 +127,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
+
 }
 
 .fourthDiv{
@@ -148,6 +151,9 @@
     height: 480px;
     background-color: #F16718;
     border-radius: 20px;
+
+
+ 
 }
 .bitMap{
     opacity: 50%;
@@ -167,6 +173,7 @@
 .InsidethirdDiv2{
     width: 255px;
     height: 265px;
+    overflow: hidden;
     
 }
 .lastDives{
@@ -317,8 +324,7 @@
     .container{
 
         height: 2128px;
-        /* padding-left: 40px; */
-        /* padding-right: 40px; */
+
     }
     .leftCorner{
         display: none;
@@ -328,23 +334,7 @@
     .rightCorner{
         display: none;
     }
-    /* .headerDiv{
-       
-        justify-content: space-around;
-        
-    
-    }
-    .secondDiv{
 
-
-        justify-content: space-around;
-    
-    } 
-    /* .thirdDiv{
- 
-        justify-content: space-around;
-        
-    } */
     .secondDiv{
 
         height: 425px;
@@ -450,7 +440,7 @@
        
         width: 478px;
         height: 425px;
-        padding-left: 40px;
+        padding-left: 20px;
       
     
     
@@ -464,10 +454,13 @@
     
     }
 
+
+
     .thirdDiv{
 
-        justify-content: space-around;
-        padding-left: 20px;
+        justify-content: space-between;
+       
+        
 
     }
     .InsidethirdDiv2{
@@ -481,5 +474,157 @@
     
     
 
+
+}
+@media (max-width:375px){
+
+    .container{
+
+        height: 3007px;
+
+    }
+    .InsideSecondDiv{
+
+        height: 286px;
+        width: 327px;
+        margin-left: 0;
+       
+        
+    
+    
+    }
+    .secondDiv{
+
+
+        height: 740px;
+
+        flex-wrap: wrap;
+        
+    
+    }
+
+    .thirdDiv{
+       
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0px;
+        
+
+        
+    }
+        .DivforPic{
+        width: 220px;
+        height: 450px;
+    
+    }
+    /* .thirdDiv{
+        width: 530px;
+        
+
+    
+    } */
+
+    .secondPic{
+        width: 220px;
+        height: 193px;
+    }
+    .InsideThirdDiv{
+        width: 129px;;
+        height: 193px;
+        margin-top: 0;
+
+        margin-left: -40px;
+        
+
+    }
+    .bitMap{
+        width: 129;;
+        height: 193px;
+        /* margin-left: -22px; */
+    }
+    .DivforPic{
+        width: 220px;
+        height: 193px;
+    }
+   .InsidethirdDiv2{
+        margin-left: 20px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .PForThirdDiv2{
+    
+        padding-right: 10px;
+        width:  100%;
+ 
+       
+    }
+    .InsideSecondDiv2{
+        width: 372px;
+        height: 331px;
+        margin-left: 20px;
+    
+        
+        
+    }
+    .InsideSecondDivPic{
+        width: 372px;
+
+        height: 331px;
+    }
+
+
+    .secondDiv{
+
+        height: 600px;
+        
+   
+    
+    
+    }
+    .afterFirstButtonSpan{
+
+        width: 127px;
+        height: 26px;
+    }
+    .InsideSecondDiv{
+        width: 500px;
+       
+    }
+    .fourthDiv{
+        height: 1200px;
+    }
+    .lastDives{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .boloOrangeDiv{
+        /* margin-left: 70px; */
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    
+    .boloOrangeDiv1{
+        /* margin-left: 70px; */
+        padding-left: 0px;
+        padding-top: 17px;
+    }
+    .boloOrangeDiv2{
+        /* margin-left: 70px; */
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .boloOrangeDiv3{
+        /* margin-left: 70px; */
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .boloSpan{
+        width: 80%;
+    }
 
 }
